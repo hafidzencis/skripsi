@@ -10,7 +10,7 @@
 
     @foreach ($userJatuhTempo as $item)
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            {{ $item}} belum membayar angsuran
+            {{ $item }} belum membayar angsuran
             <button type="button" data-dismiss="alert" class="close" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
