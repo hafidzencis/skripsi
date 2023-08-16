@@ -1,0 +1,558 @@
+body {
+  background-color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #071c4d;
+}
+
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #071c4d;
+
+      &.active {
+        font-weight: bold;
+        color: #071c4d !important;
+      }
+    }
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -12px !important;
+  margin-right: -16px !important;
+  margin-bottom: -10px !important;
+
+  height: 68px;
+  border-radius: 0px;
+}
+
+
+.btn-login {
+  background-color: #071c4d;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #1e3771;
+    color: #ffffff;
+  }
+}
+
+header {
+  padding: 200px 0 150px;
+  background-image: url(../images/finance.png);
+  background-size: cover;
+  margin-top: -69px;
+
+  h1,
+  p {
+    color: #ffffff;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 46px;
+  }
+
+  p {
+    font-size: 21px;
+  }
+
+  .btn-get-started {
+    background-color: #ff9e53;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #ffaa69;
+      color: #fff;
+    }
+  }
+}
+
+.section-stats {
+  margin-top: -50px;
+
+  .stats-detail {
+    padding-top: 10px;
+    background-color: #fff;
+    padding-left: 30px;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 7px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 3px;
+  }
+}
+
+.section-popular {
+  min-height: 700px;
+  background-color: #071c4d;
+  margin-top: -40px;
+  margin-bottom: -160px;
+
+  .section-popular-heading {
+    margin-top: 120px;
+  }
+
+  h2,
+  p {
+    color: #ffffff;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+}
+
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      padding: 30px;
+      min-height: 380px;
+      margin-bottom: 20px;
+      background-color: #ffffff;
+      background-size: cover;
+      // color: #ffffff;
+    }
+
+    .travel-name {
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    .travel-province {
+      font-size: 26px;
+      color: #ffffff;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: #ea8537;
+        color: #fff;
+
+        &:hover {
+          background-color: #ffae6f;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.section-networks {
+  margin-top: -240px;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  background-color: #ffffff;
+
+  h2 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.section-testimonials-heading {
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 40px;
+  min-height: 600px;
+
+  h4 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+}
+
+.section-testimonials-content {
+  margin-top: -355px;
+  padding-bottom: 50px;
+
+  .card-testimonial-person {
+    padding: 40px 20px 10px;
+    margin-bottom: 30px;
+
+    .testimonial-content {
+      min-height: 300px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    .testimonial {
+      font-weight: 200;
+      font-size: 20px;
+      color: #6e6e6e;
+      min-height: 100px;
+    }
+
+    hr {
+      margin-right: -18px;
+      margin-left: -18px;
+    }
+
+    .trip {
+      font-weight: normal;
+      font-size: 21px;
+    }
+
+    .trip-down {
+      margin-top: -40px;
+    }
+  }
+
+  .btn-need-help {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    color: #c3c3c3;
+
+    &:hover {
+      background-color: #f2f2f2;
+      color: #c3c3c3;
+    }
+  }
+
+  .btn-get-started {
+    background-color: #ff9e53;
+    color: #ffffff;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: #ffaa69;
+      color: #fff;
+    }
+  }
+}
+
+.section-footer {
+  margin-top: 100px;
+  a {
+    color: #071c4d;
+    font-weight: lighter;
+  }
+}
+
+.section-details-header {
+  min-height: 300px;
+  background: #e4e6eb;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071c4d;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    h3 {
+      font-size: 19px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #b1b1b1;
+    }
+
+    h3 {
+      font-weight: 600;
+      font-size: 15px;
+    }
+  }
+
+  .trip-informations {
+    th {
+      font-weight: 300;
+      font-size: 15px;
+      color: #05557a;
+    }
+
+    td {
+      font-weight: 300;
+      font-size: 15px;
+      color: #05557a;
+    }
+  }
+
+  .type-bank {
+    .bank-item {
+      .bank-image {
+        float: left;
+      }
+      .description {
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+
+        h3 {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .input-cus {
+    width: 150px;
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+  }
+
+  .gj-datepicker {
+    .datepicker {
+      border-right: 0;
+    }
+
+    .input-group-append {
+      .btn {
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .disclaimer {
+    font-size: 15px;
+    color: #b1b1b1;
+  }
+
+  .text-blue {
+    font-weight: 650;
+    font-size: 15px;
+    color: #05557a;
+  }
+}
+
+.members {
+  .image-member {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.trip-information {
+  font-size: 15px;
+  th {
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  td {
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+
+.features {
+  margin-top: 20px;
+
+  h3 {
+    font-size: 17px;
+    color: #071c4d;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .description {
+    margin-left: 10px;
+    overflow: hidden;
+    float: left;
+  }
+
+  .features-image {
+    width: 45px;
+    height: 45px;
+    float: left;
+  }
+}
+
+.gallery {
+  .xzoom-container {
+    display: block;
+
+    .xzoom {
+      width: 100%;
+      box-shadow: none;
+      margin-bottom: 10px;
+    }
+
+    .xactive {
+      border: 4px solid #1abc9c;
+      box-shadow: none;
+    }
+  }
+}
+
+.join-container {
+  margin-top: -16px;
+}
+
+.btn-join-now {
+  background-color: #ea8537;
+  color: #ffffff;
+  border-radius: 0;
+
+  &:hover {
+    background-color: #eb9858;
+    color: #fff;
+  }
+}
+
+.btn-add-member {
+  background-color: #7253eb;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #8c73ef;
+    color: #fff;
+  }
+}
+
+.section-success {
+  height: 90vh;
+  .img-successcheckout {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 230px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #7e99a6;
+  }
+
+  .btn-to-homepage {
+    background-color: #071c4d;
+    border-radius: 10px;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #1e3771;
+      color: #ffffff;
+    }
+  }
+}
+
+.section-sign-header {
+  min-height: 300px;
+  background: #e4e6eb;
+  margin-top: -70px;
+}
+
+.section-sign-content {
+  margin-top: -210px;
+  min-height: 20vh;
+
+  .card-details {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #05557A;
+    }
+
+    span{
+      font-weight: 500;
+    }
+
+    h3 {
+      font-weight: 400;
+      font-size: 15px;
+      padding-bottom: 10px;
+    }
+
+    h4 {
+      font-size: 15px;
+    }
+
+    .alert-bank-rekening{
+      margin-top: -15px;
+      font-size: 13px;
+    }
+
+    .input-type{
+      margin-top: -10px;
+    }
+
+  }
+
+  .sign-item {
+    .sign-user {
+      overflow: hidden;
+      float: left;
+    }
+  }
+
+  .btn-sign-up{
+    background-color: #071C4D;
+    color: #ffffff;
+    border-radius: 4px;
+
+    &:hover{
+      background-color: #113CA0;
+      color: #ffffff;
+    }
+  }
+}
